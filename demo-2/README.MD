@@ -3,7 +3,6 @@
 
 - The script.sh file installs nginx on the ec2 instance
     - The keypar needs to be created 
-        ```ssh-keygen -f mykey'''
+        ```ssh-keygen -f mykey```
         - This creates 2 keys 
-        '''mykey.pub and mykey'''
-        
+        ```mykey.pub and mykey```
