@@ -21,7 +21,7 @@ resource "aws_ebs_volume" "ebs-volume-1" {
   type              = "gp2"
   tags = {
     Name = "extra volume data"
-  }
+  } 
 }
 
 resource "aws_volume_attachment" "ebs-volume-1-attachment" {
